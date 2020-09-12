@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Button } from '../Button'
+import { Button } from '../components/Button'
 
 function Select( {value, setCurrency}) {
 	const [currencies, setCurrencies] = useState([]);
